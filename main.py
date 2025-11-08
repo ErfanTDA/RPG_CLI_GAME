@@ -103,6 +103,8 @@ def main():
         if command == "quiz":
             cmd_quiz(current_user)
             continue
+        
+       
 
         # ---------------------------
         #          HELP

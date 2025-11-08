@@ -119,6 +119,22 @@ def cmd_quiz(current_user):
     users[current_user] = profile
     save_users(users)
 
+# ---------------------------
+#          level
+# ---------------------------
+def cmd_level(current_user):
+    if current_user is None:
+        print(Fore.RED + "You are not logged in.\n")
+        return
+    
+    users = load_users()
+    profile = users.get(current_user, {})
+
+    level = profile.get("level", 1)
+
+    print(f"\n{current_user}'s Level: {level}\n")
+
+
 
 # ---------------------------
 #          HELP
@@ -153,3 +169,4 @@ def register_commands(commands):
     commands['signup'] = signup
     commands['status'] = status_cmd
     commands['logout'] = logout
+    commands['level'] = cmd_level
