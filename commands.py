@@ -130,7 +130,7 @@ def cmd_level(current_user):
     users = load_users()
     profile = users.get(current_user, {})
 
-    level = profile.get("level", 1)
+    level = profile.get("level", {profile.get('level', 'N/A')})
 
     print(f"\n{current_user}'s Level: {level}\n")
 
