@@ -1,9 +1,3 @@
-حتماً 👇
-این نسخه‌ی کامل و آماده‌ی کپی برای `README.md` هست — بدون هیچ باگ Markdown و با ساختار حرفه‌ای و مرتب.
-کافیه همینو کپی کنی و داخل فایل `README.md` پروژه‌ات بذاری:
-
----
-
 ````markdown
 # 🧙‍♂️ RPG CLI GAME
 
@@ -108,7 +102,4 @@ This project is open-source and available under the **MIT License**.
 ---
 
 ⭐ **If you like this project, consider giving it a star on GitHub!**
-
-```
-
 
