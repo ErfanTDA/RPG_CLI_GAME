@@ -1,4 +1,4 @@
-````markdown
+
 # 🧙‍♂️ RPG CLI GAME
 
 Hello everyone!  
@@ -26,7 +26,7 @@ Before running the game, install the required packages:
 
 ```bash
 pip install -r requirements.txt
-````
+
 
 ---
 
