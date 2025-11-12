@@ -24,7 +24,7 @@ After earning gold, you will be able to buy items and upgrade your character as 
 
 Before running the game, install the required packages:
 
-```bash
+
 pip install -r requirements.txt
 
 
